@@ -13,6 +13,7 @@
         <module name="dubbo-cloud-openfeign-provider" />
         <module name="dubbo-cloud-openfeign-consumer" />
         <module name="dubbo-cloud-consumer" />
+        <module name="dubbo-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
