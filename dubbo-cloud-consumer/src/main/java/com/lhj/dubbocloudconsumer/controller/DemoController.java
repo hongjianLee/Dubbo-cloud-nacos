@@ -10,20 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DemoController {
+//    dubbo服务
     @Reference(version = "${dubbo.consumer.versoin}")
     private DemoService demoService;
 
+//    cloud的feign服务
     @Autowired
     private FeignService feignService;
 
-    @GetMapping("demo")
-    public String demo(){
-        return demoService.helloWorld("helloworld");
+    @GetMapping("demo/{echo}")
+    public String demo(@PathVariable String echo){
+        return demoService.helloWorld(echo) + "----" + feignService.echo(echo);
     }
 
-
-    @GetMapping("demo2/{name}")
-    public String demo2(@PathVariable String name){
-        return feignService.echo(name);
-    }
 }
