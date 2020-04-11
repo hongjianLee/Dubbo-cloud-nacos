@@ -2,3 +2,5 @@
 /dubbo-api/target/
 /dubbo-cloud-consumer/target/
 /dubbo-cloud-provider/target/
+/dubbo-cloud-openfeign-provider/target/
+/dubbo-cloud-openfeign-consumer/target/
