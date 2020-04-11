@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: dubbo-cloud-openfeign-consumer
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.211.55.11:8848
+      config:
+        namespace: 24f9b039-4780-4305-af74-422a4a75d76a
+        server-addr: 10.211.55.11:8848
+        group: DEFAULT_GROUP
+        file-extension: yml
+        enabled: true
+        encode: UTF-8
+#        shared-configs: base.yml

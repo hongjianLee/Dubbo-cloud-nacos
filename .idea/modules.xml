@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Dubbo-cloud-nacos.iml" filepath="$PROJECT_DIR$/.idea/Dubbo-cloud-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-api/dubbo-api.iml" filepath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-cloud-consumer/dubbo-cloud-consumer.iml" filepath="$PROJECT_DIR$/dubbo-cloud-consumer/dubbo-cloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-cloud-openfeign-consumer/dubbo-cloud-openfeign-consumer.iml" filepath="$PROJECT_DIR$/dubbo-cloud-openfeign-consumer/dubbo-cloud-openfeign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-cloud-openfeign-provider/dubbo-cloud-openfeign-provider.iml" filepath="$PROJECT_DIR$/dubbo-cloud-openfeign-provider/dubbo-cloud-openfeign-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-cloud-provider/dubbo-cloud-provider.iml" filepath="$PROJECT_DIR$/dubbo-cloud-provider/dubbo-cloud-provider.iml" />
     </modules>
   </component>

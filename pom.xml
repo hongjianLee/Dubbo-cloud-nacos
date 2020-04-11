@@ -22,6 +22,8 @@
     <module>dubbo-api</module>
     <module>dubbo-cloud-provider</module>
     <module>dubbo-cloud-consumer</module>
+    <module>dubbo-cloud-openfeign-provider</module>
+    <module>dubbo-cloud-openfeign-consumer</module>
   </modules>
 
 </project>
