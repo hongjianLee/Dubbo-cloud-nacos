@@ -18,3 +18,15 @@ spring:
         enabled: true
         encode: UTF-8
 #        shared-configs: base.yml
+
+#dubbo-cloud-openfeign-consumer-dev.yml
+#server:
+#  port: 8004
+#feign:
+#  sentinel:
+#    enabled: true
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
