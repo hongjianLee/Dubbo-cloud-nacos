@@ -10,11 +10,13 @@
         <option value="$PROJECT_DIR$/dubbo-cloud-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-cloud-openfeign-provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-cloud-openfeign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmqc/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/dubbo-openfeign/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmqc/pom.xml" />
       </set>
     </option>
   </component>
