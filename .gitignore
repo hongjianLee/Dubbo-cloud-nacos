@@ -1,6 +1,16 @@
-# Project exclude paths
-/dubbo-api/target/
-/dubbo-cloud-consumer/target/
-/dubbo-cloud-provider/target/
-/dubbo-cloud-openfeign-provider/target/
-/dubbo-cloud-openfeign-consumer/target/
+*.class
+*.idea
+*.iml 
+# Package Files #
+*.jar
+*.war
+*.ear
+ 
+# ignore Maven generated target folders
+target
+ 
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
