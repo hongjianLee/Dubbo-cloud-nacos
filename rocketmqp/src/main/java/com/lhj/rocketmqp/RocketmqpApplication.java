@@ -3,6 +3,7 @@ package com.lhj.rocketmqp;
 import com.alibaba.fastjson.JSON;
 import com.lhj.dubboapi.service.IMqProducerService;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
 @EnableDiscoveryClient
+@EnableDubbo
 @SpringBootApplication
 public class RocketmqpApplication {
     @Autowired

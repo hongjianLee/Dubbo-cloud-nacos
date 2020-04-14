@@ -17,7 +17,7 @@ spring:
         file-extension: yml
         enabled: true
         encode: UTF-8
-#        shared-configs: base.yml
+        shared-configs: base.yml
 
 #rocketmqp-dev.yml
 #server:

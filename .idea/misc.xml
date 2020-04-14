@@ -17,6 +17,7 @@
       <set>
         <option value="$PROJECT_DIR$/dubbo-openfeign/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmqc/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmqc2/pom.xml" />
       </set>
     </option>
   </component>
