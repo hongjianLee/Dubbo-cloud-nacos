@@ -25,6 +25,7 @@
     <module>dubbo-cloud-openfeign-provider</module>
     <module>dubbo-cloud-openfeign-consumer</module>
     <module>rocketmqp</module>
+    <module>rocketmq-consumer</module>
   </modules>
 
 </project>

@@ -11,7 +11,9 @@
         <module name="rocketmqc2" />
         <module name="dubbo-cloud-provider" />
         <module name="dubbo-cloud-openfeign-consumer" />
+        <module name="rocketmq-consumer" />
         <module name="dubbo-cloud-openfeign-provider" />
+        <module name="rocketmqc" />
         <module name="dubbo-api" />
         <module name="dubbo-cloud-consumer" />
         <module name="rocketmqp" />
@@ -25,8 +27,10 @@
       <module name="dubbo-cloud-openfeign-provider" target="1.8" />
       <module name="dubbo-cloud-provider" target="1.8" />
       <module name="dubbo-openfeign" target="1.8" />
+      <module name="rocketmq-consumer" target="1.8" />
       <module name="rocketmqc" target="1.8" />
       <module name="rocketmqc2" target="1.8" />
+      <module name="rocketmqc3" target="1.8" />
       <module name="rocketmqp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -38,8 +42,10 @@
       <module name="dubbo-cloud-openfeign-provider" options="-parameters" />
       <module name="dubbo-cloud-provider" options="-parameters" />
       <module name="dubbo-openfeign" options="-parameters" />
+      <module name="rocketmq-consumer" options="-parameters" />
       <module name="rocketmqc" options="-parameters" />
       <module name="rocketmqc2" options="-parameters" />
+      <module name="rocketmqc3" options="-parameters" />
       <module name="rocketmqp" options="-parameters" />
     </option>
   </component>
