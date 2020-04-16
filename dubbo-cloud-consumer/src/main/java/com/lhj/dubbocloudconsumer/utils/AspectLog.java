@@ -1,17 +1,23 @@
 package com.lhj.dubbocloudconsumer.utils;
 
 import com.alibaba.fastjson.JSON;
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component
 @Aspect
+// 多个切面，order值越小执行顺序越靠前
+@Order(-1)
 public class AspectLog {
 
     @Pointcut("@annotation(com.lhj.dubbocloudconsumer.utils.LogAop)")
@@ -19,7 +25,7 @@ public class AspectLog {
 
     @Before("logAop()")
     public void beforeRun() {
-        System.out.println("在AnnotationDemo注解之前执行");
+        System.out.println("在注解之前执行");
     }
 
     @Around("logAop() && @annotation(logAop)")
@@ -42,13 +48,23 @@ public class AspectLog {
         } catch (Throwable throwable) {
             throwable.printStackTrace();
         }
-        System.out.println("切面执行");
+        System.out.println("切面执行" + obj);
         return obj;
     }
 
     @After("logAop()")
     public void after() {
-        System.out.println("在AnnotationDemo注解之后执行");
+        System.out.println("在注解之后执行");
+    }
+
+    @AfterThrowing("logAop()")
+    public void afterThrowing(JoinPoint joinPoint) {
+        System.out.println("在afterThrowing之后执行");
+    }
+
+    @AfterReturning("logAop()")
+    public void afterReturning(JoinPoint joinPoint) {
+        System.out.println("在afterReturning之后执行");
     }
 
 }
