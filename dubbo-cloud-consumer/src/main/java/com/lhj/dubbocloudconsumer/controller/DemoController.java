@@ -2,6 +2,7 @@ package com.lhj.dubbocloudconsumer.controller;
 
 import com.lhj.dubboapi.service.DemoService;
 import com.lhj.dubbocloudconsumer.service.FeignService;
+import com.lhj.dubbocloudconsumer.utils.LogAop;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,6 +20,7 @@ public class DemoController {
     private FeignService feignService;
 
     @GetMapping("demo/{echo}")
+    @LogAop
     public String demo(@PathVariable String echo){
         return demoService.helloWorld(echo) + "----" + feignService.echo(echo);
     }
