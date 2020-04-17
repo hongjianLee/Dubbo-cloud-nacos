@@ -1,4 +1,4 @@
-package com.lhj.dubbocloudconsumer.utils.thread.test;
+package com.lhj.dubbocloudconsumer.thread.test;
 
 
 import com.lhj.dubbo_provider.utils.thread.thread.TestCallable;

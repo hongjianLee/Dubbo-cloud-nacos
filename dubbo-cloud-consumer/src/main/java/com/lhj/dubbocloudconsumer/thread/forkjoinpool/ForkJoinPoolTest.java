@@ -1,4 +1,4 @@
-package com.lhj.dubbocloudconsumer.utils.thread.forkjoinpool;
+package com.lhj.dubbocloudconsumer.thread.forkjoinpool;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

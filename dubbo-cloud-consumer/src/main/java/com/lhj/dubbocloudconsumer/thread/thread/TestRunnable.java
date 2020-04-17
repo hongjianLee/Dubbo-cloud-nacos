@@ -1,4 +1,4 @@
-package com.lhj.dubbocloudconsumer.utils.thread.thread;
+package com.lhj.dubbocloudconsumer.thread.thread;
 
 public class TestRunnable implements Runnable {
     @Override

@@ -1,4 +1,4 @@
-package com.lhj.dubbocloudconsumer.utils.thread.threadpoolexecutor;
+package com.lhj.dubbocloudconsumer.thread.threadpoolexecutor;
 
 import java.util.concurrent.LinkedTransferQueue;
 import java.util.concurrent.ThreadPoolExecutor;

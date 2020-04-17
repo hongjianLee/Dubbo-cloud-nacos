@@ -1,4 +1,4 @@
-package com.lhj.dubbocloudconsumer.utils.thread.thread;
+package com.lhj.dubbocloudconsumer.thread.thread;
 
 import java.util.concurrent.Callable;
 

@@ -1,4 +1,4 @@
-package com.lhj.dubbocloudconsumer.utils.thread.threadpoolexecutor;
+package com.lhj.dubbocloudconsumer.thread.threadpoolexecutor;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

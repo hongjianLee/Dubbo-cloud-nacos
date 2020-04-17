@@ -1,4 +1,4 @@
-package com.lhj.dubbocloudconsumer.utils.thread.forkjoinpool;
+package com.lhj.dubbocloudconsumer.thread.forkjoinpool;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.Future;

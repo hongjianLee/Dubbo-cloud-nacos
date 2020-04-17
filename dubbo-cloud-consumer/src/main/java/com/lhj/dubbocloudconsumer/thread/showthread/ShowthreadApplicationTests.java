@@ -1,4 +1,4 @@
-package com.lhj.dubbocloudconsumer.utils.thread.showthread;
+package com.lhj.dubbocloudconsumer.thread.showthread;
 
 
 import org.junit.Test;
