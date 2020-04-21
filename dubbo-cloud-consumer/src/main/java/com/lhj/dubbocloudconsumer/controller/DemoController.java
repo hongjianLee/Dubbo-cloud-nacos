@@ -18,9 +18,8 @@ public class DemoController {
 //    cloud的feign服务
     @Autowired
     private FeignService feignService;
-
-    @GetMapping("demo/{echo}")
     @LogAop
+    @GetMapping("demo/{echo}")
     public String demo(@PathVariable String echo){
         return demoService.helloWorld(echo) + "----" + feignService.echo(echo);
     }
