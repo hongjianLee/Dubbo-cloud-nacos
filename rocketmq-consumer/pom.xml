@@ -16,45 +16,41 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <dubbo-version>2.2.0.RELEASE</dubbo-version>
-        <nacos-discovery-version>2.2.0.RELEASE</nacos-discovery-version>
-        <nacos-config-version>2.2.0.RELEASE</nacos-config-version>
-        <rocketmq-version>2.1.0</rocketmq-version>
+        <rocketmq.version>2.0.4</rocketmq.version>
+        <dubbo.version>2.2.0.RELEASE</dubbo.version>
+        <nacos-discovery.version>2.2.0.RELEASE</nacos-discovery.version>
+        <nacos-config.version>2.2.0.RELEASE</nacos-config.version>
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-spring-boot-starter -->
-        <dependency>
-            <groupId>org.apache.rocketmq</groupId>
-            <artifactId>rocketmq-spring-boot-starter</artifactId>
-            <version>${rocketmq-version}</version>
-        </dependency>
         <!-- Dubbo Spring Cloud Starter -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-dubbo</artifactId>
-            <version>${dubbo-version}</version>
+            <version>${dubbo.version}</version>
         </dependency>
-        <!-- Spring Boot dependencies -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-actuator</artifactId>
-        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-discovery -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-            <version>${nacos-discovery-version}</version>
+            <version>${nacos-discovery.version}</version>
         </dependency>
         <!--nacos配置中心-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-            <version>${nacos-config-version}</version>
+            <version>${nacos-config.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-spring-boot-starter -->
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-spring-boot-starter</artifactId>
+            <version>${rocketmq.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
@@ -73,5 +69,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
     </dependencies>
 </project>

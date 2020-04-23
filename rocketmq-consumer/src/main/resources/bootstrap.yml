@@ -18,6 +18,10 @@ spring:
         enabled: true
         encode: UTF-8
         shared-configs: base.yml
+dubbo:
+  registry:
+    address: spring-cloud://192.168.1.90
+
 #rocketmqc-dev.yml
 #server:
 #  port: 8006

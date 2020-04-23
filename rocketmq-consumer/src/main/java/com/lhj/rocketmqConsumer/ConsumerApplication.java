@@ -1,4 +1,4 @@
-package com.lhj.rocketmqconsumer;
+package com.lhj.rocketmqConsumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class RocketmqConsumerApplication {
+public class ConsumerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RocketmqConsumerApplication.class, args);
+        SpringApplication.run(ConsumerApplication.class, args);
     }
 
 }

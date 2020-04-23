@@ -16,10 +16,10 @@
 
     <properties>
         <java.version>1.8</java.version>
-       <dubbo-version>2.2.0.RELEASE</dubbo-version>
-        <nacos-discovery-version>2.2.0.RELEASE</nacos-discovery-version>
-        <nacos-config-version>2.2.0.RELEASE</nacos-config-version>
-        <rocketmq-version>2.1.0</rocketmq-version>
+        <dubbo.version>2.2.0.RELEASE</dubbo.version>
+        <nacos-discovery.version>2.2.0.RELEASE</nacos-discovery.version>
+        <nacos-config.version>2.2.0.RELEASE</nacos-config.version>
+        <rocketmq.version>2.1.0</rocketmq.version>
     </properties>
 
     <dependencies>
@@ -27,13 +27,13 @@
         <dependency>
             <groupId>org.apache.rocketmq</groupId>
             <artifactId>rocketmq-spring-boot-starter</artifactId>
-            <version>${rocketmq-version}</version>
+            <version>${rocketmq.version}</version>
         </dependency>
         <!-- Dubbo Spring Cloud Starter -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-dubbo</artifactId>
-            <version>${dubbo-version}</version>
+            <version>${dubbo.version}</version>
         </dependency>
 
         <dependency>
@@ -50,13 +50,13 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-            <version>${nacos-discovery-version}</version>
+            <version>${nacos-discovery.version}</version>
         </dependency>
         <!--nacos配置中心-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-            <version>${nacos-config-version}</version>
+            <version>${nacos-config.version}</version>
         </dependency>
        <!-- <dependency>
             <groupId>com.google.guava</groupId>
@@ -96,14 +96,5 @@
             <version>1.18.12</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

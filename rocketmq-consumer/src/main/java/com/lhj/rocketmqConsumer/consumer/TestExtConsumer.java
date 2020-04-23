@@ -1,4 +1,4 @@
-package com.lhj.rocketmqconsumer;
+package com.lhj.rocketmqConsumer.consumer;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
@@ -18,6 +18,8 @@ import org.springframework.stereotype.Service;
         selectorExpression = "test"
 )
 public class TestExtConsumer implements RocketMQListener<MessageExt>, RocketMQPushConsumerLifecycleListener {
+
+
     @Override
     public void onMessage(MessageExt message) {
         log.info("------- MessageExtConsumer received message -> topic={}, tags={}, msgId={}, body={}",

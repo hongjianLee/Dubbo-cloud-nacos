@@ -7,16 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="rocketmqc-only" />
         <module name="Dubbo-cloud-nacos" />
         <module name="rocketmqc2" />
         <module name="dubbo-cloud-provider" />
-        <module name="rocketmqc" />
-        <module name="rocketmqp" />
-        <module name="dubbo-cloud-openfeign-provider" />
         <module name="dubbo-cloud-openfeign-consumer" />
+        <module name="rocketmq-consumer" />
+        <module name="dubbo-cloud-openfeign-provider" />
+        <module name="rocketmqc" />
         <module name="dubbo-api" />
         <module name="dubbo-cloud-consumer" />
-        <module name="rocketmq-consumer" />
+        <module name="rocketmqp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +30,7 @@
       <module name="dubbo-openfeign" target="1.8" />
       <module name="rocketmq-consumer" target="1.8" />
       <module name="rocketmqc" target="1.8" />
+      <module name="rocketmqc-only" target="1.8" />
       <module name="rocketmqc2" target="1.8" />
       <module name="rocketmqc3" target="1.8" />
       <module name="rocketmqp" target="1.8" />
@@ -44,6 +46,7 @@
       <module name="dubbo-openfeign" options="-parameters" />
       <module name="rocketmq-consumer" options="-parameters" />
       <module name="rocketmqc" options="-parameters" />
+      <module name="rocketmqc-only" options="-parameters" />
       <module name="rocketmqc2" options="-parameters" />
       <module name="rocketmqc3" options="-parameters" />
       <module name="rocketmqp" options="-parameters" />

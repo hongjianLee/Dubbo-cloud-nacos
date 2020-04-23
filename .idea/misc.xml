@@ -12,8 +12,8 @@
         <option value="$PROJECT_DIR$/dubbo-cloud-openfeign-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmqc/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmqc4/pom.xml" />
-        <option value="$PROJECT_DIR$/rocketmq-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmqmpc/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
