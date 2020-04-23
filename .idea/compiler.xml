@@ -10,13 +10,13 @@
         <module name="Dubbo-cloud-nacos" />
         <module name="rocketmqc2" />
         <module name="dubbo-cloud-provider" />
-        <module name="dubbo-cloud-openfeign-consumer" />
-        <module name="rocketmq-consumer" />
-        <module name="dubbo-cloud-openfeign-provider" />
         <module name="rocketmqc" />
+        <module name="rocketmqp" />
+        <module name="dubbo-cloud-openfeign-provider" />
+        <module name="dubbo-cloud-openfeign-consumer" />
         <module name="dubbo-api" />
         <module name="dubbo-cloud-consumer" />
-        <module name="rocketmqp" />
+        <module name="rocketmq-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
