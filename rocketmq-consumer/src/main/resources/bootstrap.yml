@@ -1,6 +1,6 @@
 spring:
   application:
-    name: rocketmqp
+    name: rocketmqc
   profiles:
     active: dev
 ---
@@ -18,17 +18,17 @@ spring:
         enabled: true
         encode: UTF-8
         shared-configs: base.yml
+dubbo:
+  registry:
+    address: spring-cloud://192.168.1.90
 
-#rocketmqp-dev.yml
+#rocketmqc-dev.yml
 #server:
-#  port: 8005
+#  port: 8006
 #dubbo:
 #  application:
-#    name: rocketmqp
+#    name: rocketmqc
 #rocketmq:
-#  tag:
-#    prefix:
 #  name-server: 192.168.1.90:9876
-#  producer:
-#    group: LhjMQProducerGroup
-#    sendMessageTimeout: 300000
+#  consumer:
+#    group: lhjRocketConsumerGroup

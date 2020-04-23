@@ -9,10 +9,10 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 10.211.55.11:8848
+        server-addr: 192.168.1.90:8848
       config:
-        namespace: 24f9b039-4780-4305-af74-422a4a75d76a
-        server-addr: 10.211.55.11:8848
+        namespace: 9c0ba88b-9d15-4ed9-903e-9461b2dc5234
+        server-addr: 192.168.1.90:8848
         group: DEFAULT_GROUP
         file-extension: yml
         enabled: true
